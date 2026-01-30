@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --cor-secundaria: #c58505;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    
+}
+
+.header-title {
+    font-family: "Passion One", sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--cor-secundaria);
+
+}
+
+.letters {
+    font-size: 1.2em;
+}
+
+header p {
+    padding: 15px;
+    font-size: 1.4em;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-a {
+    color: white;
+    color: var(--cor-secundaria);
+    font-weight: bolder;
+}
+
+
+section {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: .3rem;
+    font-size: 1.1em;
+    line-height: 2.9em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+
+.p-poetry {
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section-image-1 {
+    background-image: url(img/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+.p-image {
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 300px;
+}
+
+.section-image-2{
+    background-image: url(img/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
+
+footer span {
+    color: var(--cor-secundaria);
+}
+
+
