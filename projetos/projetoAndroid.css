@@ -21,7 +21,7 @@
             --cor8: #368d2e;
             --cor9: #40693c;
             --cor10: #293329;
-            --footer-span: #47B63D;
+            --footer-a: #47B63D;
         }
 
         body {
@@ -140,8 +140,9 @@
             padding: 7px;
         }
 
-        footer span {
-            color: var(--footer-span);
+        .link-footer {
+            color: var(--footer-a);
+            text-decoration: none;
         }
 
         aside {

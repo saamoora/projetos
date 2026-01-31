@@ -96,8 +96,9 @@ footer {
     text-align: center;
 }
 
-footer span {
+.link-footer {
     color: var(--cor-secundaria);
+    text-decoration: none;   
 }
 
 
