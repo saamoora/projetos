@@ -1,9 +1,10 @@
+    @charset "UTF-8";
+    
     @font-face {
             font-family: 'idroid';
             src: url(fonte/idroid.otf);
            }
 
-        
      * {
         margin: 0;
         padding: 0;
@@ -57,7 +58,7 @@
         .menu-nav {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 45px;
             list-style: none;
             padding-left: 10px;
             padding-right: 10px;
@@ -129,21 +130,6 @@
             margin: auto;
         }
 
-        footer {
-            background-color: var(--cor5);
-            color: white;
-            display: flex;
-            justify-content: center;
-        }
-
-        footer p {
-            padding: 7px;
-        }
-
-        .link-footer {
-            color: var(--footer-a);
-            text-decoration: none;
-        }
 
         aside {
             background-color: var(--cor9);
@@ -196,4 +182,20 @@
         .video iframe {
             display: block;
             width: 100%;
+        }
+
+        footer {
+            background-color: var(--cor5);
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer p {
+            padding: 7px;
+        }
+
+        .link-footer {
+            color: var(--footer-a);
+            text-decoration: none;
         }

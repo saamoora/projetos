@@ -23,22 +23,16 @@ header {
 
 .header-title {
     font-family: "Passion One", sans-serif;
-    font-size: 3.5em;
+    font-size: 5em;
     font-weight: bold;
-    text-transform: uppercase;
+    font-variant: small-caps;
     color: var(--cor-secundaria);
 
-}
-
-.letters {
-    font-size: 1.2em;
 }
 
 header p {
     padding: 15px;
     font-size: 1.4em;
-    font-variant: small-caps;
-    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -70,7 +64,7 @@ section {
     background-image: url(img/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: right bottom;
+    background-position: right center;
 }
 
 .p-image {
