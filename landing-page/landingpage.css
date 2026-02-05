@@ -20,7 +20,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: rgba(56, 52, 52, 0.979);
     color: rgb(255, 255, 255);
-    background-image: url(img/fundo.png);
+    background-image: url(/projetos/img/fundo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
