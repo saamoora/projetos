@@ -61,7 +61,7 @@ section {
 }
 
 .section-image-1 {
-    background-image: url(img/background001.jpg);
+    background-image: url(/projetos/img/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
@@ -77,7 +77,7 @@ section {
 }
 
 .section-image-2{
-    background-image: url(img/background002.jpg);
+    background-image: url(/projetos/img/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
