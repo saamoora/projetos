@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: rgba(61, 59, 59, 0.76);
+    color: rgb(238, 225, 225);
+    text-align: center;
+}
+
+header h1 {
+    padding: 5px;
+}
+
+nav {
+    display: none;
+}
+
+nav li {
+    line-height: 40px;
+    list-style: none;
+    border-top: 2px solid rgb(238, 225, 225);
+}
+
+nav li:hover {
+    background-color: rgb(61, 59, 59);
+    transition: .2s;
+    cursor: pointer;
+}
+
+nav a {
+    color: rgb(238, 225, 225);
+    text-decoration: none;
+}
+
+.card {
+    margin: 10px;
+    text-align: justify;
+    background-color: rgba(31, 30, 30, 0.534);
+    border-radius: 10px;
+    flex: 1 1 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-indent: 30px;
+}
+
+.material-symbols-outlined {
+    background-color: rgba(31, 30, 30, 0.808);
+    display: block;
+    padding: 3px;
+    cursor: pointer;
+    transition: .2s;
+}
