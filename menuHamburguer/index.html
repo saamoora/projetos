@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <link rel="stylesheet" href="style.css">
-    <title>Menu Hamburguer</title>
+    <title>Menu Hamburguer - Mobile First</title>
 </head>
-<body>
+<body onresize="changedSize()">
     <header>
         <h1>Menu hambúrguer</h1>
         <span id="menuburger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -40,7 +40,17 @@
            </div>
         </div>
          </main>
+
            <script>
+            function changedSize () {
+                if (window.innerWidth >= 768) {
+                    menu.style.display = 'block'
+                    } 
+            else  {
+                menu.style.display = 'none'
+             }
+            }
+
             function clickMenu () {
                 if (menu.style.display == 'block') {
                     menu.style.display = 'none'

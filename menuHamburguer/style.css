@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    padding: 5px;
+    padding: 10px;
 }
 
 nav {
@@ -27,9 +27,9 @@ nav li {
     border-top: 2px solid rgb(238, 225, 225);
 }
 
-nav li:hover {
-    background-color: rgb(61, 59, 59);
-    transition: .2s;
+nav a:hover {
+    color: rgb(158, 139, 139);
+    transition: .4s;
     cursor: pointer;
 }
 
@@ -64,4 +64,25 @@ p {
     display: block;
     padding: 3px;
     cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    #menuburger {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav {
+        background-color: rgba(31, 30, 30, 0.808);
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 2.5em;
+        border: none;
+    }
+
 }
